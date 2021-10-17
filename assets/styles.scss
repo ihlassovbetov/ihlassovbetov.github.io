@@ -2,8 +2,6 @@
 ---
 @import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
@@ -90,8 +88,10 @@ body {
     transform: translateY(-50%);
     position: absolute;
     top: 50%;
-    left: 0;
     background-color: #515151;
+}
+.contact .contact-title::before { 
+    left: 0;
 }
 .contact .contact-title::after { 
     right: 0;
