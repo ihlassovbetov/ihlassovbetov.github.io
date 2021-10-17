@@ -2,11 +2,16 @@
 ---
 @import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
+@import url('https://fonts.googleapis.com/css?family=Lato);
 
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+  font-family: 'Lato',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif!important;
 }
 
 .repo-language-color {
@@ -51,4 +56,13 @@
 
 .min-height-full {
   min-height: 100vh;
+}
+
+.mashead {
+    text-align: center;
+}
+
+.mashead-info .d-flex {
+    justify-content: center;
+    align-content: center;
 }
