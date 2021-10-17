@@ -26,10 +26,10 @@ projects:
     archived: true
     forks: true
     projects:
-      - observatory
+      - ihlassovbetov.github.io
 
 social_media:
-  website: https://ihlassovbetov.github.io/
+  website: https://ihlas.sovbetov.com
   linkedin: yhlas-sovbetov
   facebook: ihlassovbetov
   twitter: ihlassovbetov
