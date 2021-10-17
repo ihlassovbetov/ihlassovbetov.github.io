@@ -3,40 +3,48 @@ facebook:
   profile_url_prefix: https://www.facebook.com/
   share_url_prefix: https://www.facebook.com/sharer/sharer.php?u=
   fontawesome: fa-facebook-square
+  color: 1877f2
 
 linkedin:
   name: LinkedIn
   profile_url_prefix: https://www.linkedin.com/in/
   share_url_prefix: https://www.linkedin.com/shareArticle?mini=true&url=
   fontawesome: fa-linkedin-square
+  color: 0a66c2
 
 twitter:
   name: Twitter
   profile_url_prefix: https://www.twitter.com/
   share_url_prefix: https://twitter.com/share?url=
   fontawesome: fa-twitter-square
+  color: 1da1f2
 
 website:
   name: Website
   fontawesome: fa-external-link-square
+  color: 171A21
 
 youtube:
   name: YouTube
   profile_url_prefix: https://www.youtube.com/
   fontawesome: fa-youtube-square
+  color: ff0000
 
 github:
   name: Github
   profile_url_prefix: https://www.github.com/
   fontawesome: fa-github-square
+  color: 1d1a1a
 
 reddit:
   name: Github
   profile_url_prefix: https://www.reddit.com/
   fontawesome: fa-reddit-square
+  color: ff4500
 
 email:
   name: Email
   profile_url_prefix: 'mailto:'
   fontawesome: fa-envelope-square
+  color: aa2200
 

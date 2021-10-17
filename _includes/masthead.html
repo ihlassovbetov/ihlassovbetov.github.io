@@ -28,7 +28,7 @@
           {% assign service_shortname = account[0] %}
           {% assign service = site.data.social_media[service_shortname] %}
           <a href="{{ service.profile_url_prefix }}{{ account[1] }}" target="_blank" class="tooltipped tooltipped-se" aria-label="{{ service.name }}: {{ account[1] }}">
-            <i class="fa fa-{{ site.fontawesome }}" aria-hidden="true"></i>
+            <i class="fa fa-{{ service.fontawesome }}" aria-hidden="true" style="color:#{{ service.fontawesome }}"></i>
           </a>
         </li>
         {% endfor %}
