@@ -77,9 +77,29 @@ body {
     border: 5px solid #f7f7f7;
     border-image: round;
 }
-.mashead-top img:hover {
-  -webkit-transform: scale3d(0.9, 0.9, 1);
-  transform: scale3d(0.9, 0.9, 1);
+.mashead-top .cover-author-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #333030;
+}
+.cover-author-image img {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: -webkit-transform 0.35s;
+    -o-transition: transform 0.35s;
+    transition: transform 0.35s;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+}
+.cover-author-image img:hover {
+    -webkit-transform: scale3d(0.9, 0.9, 1);
+    transform: scale3d(0.9, 0.9, 1);
 }
 
 .contact {
