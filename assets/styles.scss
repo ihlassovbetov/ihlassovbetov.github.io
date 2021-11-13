@@ -157,3 +157,16 @@ body {
     text-align: center;
     margin: 0;
 }
+@media (min-width: 768px) {
+	.mashead {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 340px;
+		height: 100%;
+	}
+	.main-content {
+		margin-left: 340px;
+	}
+}
